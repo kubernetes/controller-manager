@@ -3,5 +3,3 @@
 module k8s.io/controller-manager
 
 go 1.15
-
-replace k8s.io/controller-manager => ../controller-manager
