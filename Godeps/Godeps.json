@@ -300,7 +300,7 @@
 		},
 		{
 			"ImportPath": "github.com/gorilla/websocket",
-			"Rev": "v1.4.0"
+			"Rev": "v1.4.2"
 		},
 		{
 			"ImportPath": "github.com/gregjones/httpcache",
@@ -680,15 +680,15 @@
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "79ef3cbd919a"
+			"Rev": "d67967d70958"
 		},
 		{
 			"ImportPath": "k8s.io/apiserver",
-			"Rev": "bc90f6d3a2fe"
+			"Rev": "44451407e948"
 		},
 		{
 			"ImportPath": "k8s.io/client-go",
-			"Rev": "68bb4a9525d8"
+			"Rev": "1eb2027cd51e"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
