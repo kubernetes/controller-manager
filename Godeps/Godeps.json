@@ -1,9 +1,0 @@
-{
-	"ImportPath": "k8s.io/controller-manager",
-	"GoVersion": "unknown",
-	"GodepVersion": "gen-godeps",
-	"Packages": [
-		"./..."
-	],
-	"Deps": null
-}
