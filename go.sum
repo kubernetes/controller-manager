@@ -695,8 +695,8 @@ k8s.io/api v0.0.0-20210608234611-443865cb5023 h1:l08ceKhuMO9yS5R6RoOMbHL7l2x1xPU
 k8s.io/api v0.0.0-20210608234611-443865cb5023/go.mod h1:oOcQtttRbMcmaT53VTa16jrZ5jlcMGUK6Pk59KY7uxY=
 k8s.io/apimachinery v0.0.0-20210608234431-94d246571289 h1:hue0+YLKdjBiznzaQTvjnAeSY1m+2g0tF9Z9UpZxo2M=
 k8s.io/apimachinery v0.0.0-20210608234431-94d246571289/go.mod h1:5zcgojGmAy5Bo3S4mgZWAt6HwoKzaSh4MV3ITvlcOVM=
-k8s.io/apiserver v0.0.0-20210612020006-ed00fbe36bd9 h1:nOY3l/bxPoj2gRfWJQ5PtWImi6RzaUSy1HWU2xCySzM=
-k8s.io/apiserver v0.0.0-20210612020006-ed00fbe36bd9/go.mod h1:+rextri3qmtABUMX6Qg6MGrZdhm8ZH+B2Mi4gHA05Us=
+k8s.io/apiserver v0.0.0-20210615060546-ea293d03e20f h1:Bu2bl4cGF2ACz627wdg+Q1e/kL6rbxPcgBcCoB7MDh4=
+k8s.io/apiserver v0.0.0-20210615060546-ea293d03e20f/go.mod h1:nGUNGDbask/59SnFEiLvfiAyqXWfuYdXg0z56+Wy9mc=
 k8s.io/client-go v0.0.0-20210611014049-1bccfc8c6097 h1:JW5Qz6b78D5CzuPC85TF/nuTmVx813F0fbO+lyFbgg8=
 k8s.io/client-go v0.0.0-20210611014049-1bccfc8c6097/go.mod h1:S/QhIN8KEissISldI18XTFzuWXY+qxTW32UAtDNxLVo=
 k8s.io/component-base v0.0.0-20210610174211-af2cafac8047 h1:zJOORIS5jf2jVhHxgb8y+TsDBGSL50LRjNqNQbDXoCc=
@@ -712,8 +712,8 @@ k8s.io/utils v0.0.0-20210521133846-da695404a2bc/go.mod h1:jPW/WVKK9YHAvNhRxK0md/
 rsc.io/binaryregexp v0.2.0/go.mod h1:qTv7/COck+e2FymRvadv62gMdZztPaShugOCi3I+8D8=
 rsc.io/quote/v3 v3.1.0/go.mod h1:yEA65RcK8LyAZtP9Kv3t0HmxON59tX3rD+tICJqUlj0=
 rsc.io/sampler v1.3.0/go.mod h1:T1hPZKmBbMNahiBKFy5HrXp6adAjACjK9JXDnKaTXpA=
-sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.19 h1:0jaDAAxtqIrrqas4vtTqxct4xS5kHfRNycTRLTyJmVM=
-sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.19/go.mod h1:LEScyzhFmoF5pso/YSeBstl57mOzx9xlU9n85RGrDQg=
+sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.20 h1:jLWvYcn/9pCws8p54so9QpxkkL0SWc2fTZTg77NRyhg=
+sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.20/go.mod h1:LEScyzhFmoF5pso/YSeBstl57mOzx9xlU9n85RGrDQg=
 sigs.k8s.io/structured-merge-diff/v4 v4.0.2/go.mod h1:bJZC9H9iH24zzfZ/41RGcq60oK1F7G282QMXDPYydCw=
 sigs.k8s.io/structured-merge-diff/v4 v4.1.1 h1:nYqY2A6oy37sKLYuSBXuQhbj4JVclzJK13BOIvJG5XU=
 sigs.k8s.io/structured-merge-diff/v4 v4.1.1/go.mod h1:bJZC9H9iH24zzfZ/41RGcq60oK1F7G282QMXDPYydCw=
