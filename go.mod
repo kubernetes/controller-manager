@@ -9,10 +9,10 @@ require (
 	github.com/stretchr/testify v1.8.0
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	k8s.io/api v0.0.0-20221012115127-0184bd884c5e
-	k8s.io/apimachinery v0.0.0-20221012034848-78d003cc9419
-	k8s.io/apiserver v0.0.0-20221013202305-318e3ec46929
-	k8s.io/client-go v0.0.0-20221012035333-e6d958c7a853
-	k8s.io/component-base v0.0.0-20221013201325-c77c317a00ac
+	k8s.io/apimachinery v0.0.0-20221014074937-b839e82f5d70
+	k8s.io/apiserver v0.0.0-20221014081021-6ea0849c6d55
+	k8s.io/client-go v0.0.0-20221014075641-aea20dde598b
+	k8s.io/component-base v0.0.0-20221014080429-1c6f043b5467
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20220922133306-665eaaec4324
 )
@@ -29,7 +29,7 @@ require (
 	github.com/emicklei/go-restful/v3 v3.9.0 // indirect
 	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
-	github.com/fsnotify/fsnotify v1.5.4 // indirect
+	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
@@ -78,7 +78,7 @@ require (
 	go.uber.org/zap v1.19.0 // indirect
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
-	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
+	golang.org/x/sys v0.0.0-20220908164124-27713097b956 // indirect
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	golang.org/x/text v0.3.8 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
@@ -98,9 +98,9 @@ require (
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20221012115127-0184bd884c5e
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221012034848-78d003cc9419
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221013202305-318e3ec46929
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221012035333-e6d958c7a853
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221013201325-c77c317a00ac
-	k8s.io/kms => k8s.io/kms v0.0.0-20221012040222-bf322548c086
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221014074937-b839e82f5d70
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221014081021-6ea0849c6d55
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20221014075641-aea20dde598b
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20221014080429-1c6f043b5467
+	k8s.io/kms => k8s.io/kms v0.0.0-20221014080727-25ac69204108
 )
