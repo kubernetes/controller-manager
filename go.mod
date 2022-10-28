@@ -8,11 +8,11 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
-	k8s.io/api v0.0.0-20221019235207-4e8dc44b5ed4
-	k8s.io/apimachinery v0.0.0-20221025074955-6809593a7033
-	k8s.io/apiserver v0.0.0-20221026160320-6e21d2997b17
-	k8s.io/client-go v0.0.0-20221019075459-ef8a2e522779
-	k8s.io/component-base v0.0.0-20221020195653-9fd3a641bd31
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20220922133306-665eaaec4324
 )
@@ -76,11 +76,11 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.19.0 // indirect
-	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
+	golang.org/x/net v0.1.1-0.20221027164007-c63010009c80 // indirect
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
-	golang.org/x/sys v0.0.0-20220908164124-27713097b956 // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.8 // indirect
+	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/term v0.1.0 // indirect
+	golang.org/x/text v0.4.0 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
@@ -97,10 +97,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221019235207-4e8dc44b5ed4
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221025074955-6809593a7033
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221026160320-6e21d2997b17
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221019075459-ef8a2e522779
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221020195653-9fd3a641bd31
-	k8s.io/kms => k8s.io/kms v0.0.0-20221014080727-25ac69204108
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
 )
