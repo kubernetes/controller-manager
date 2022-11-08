@@ -8,10 +8,10 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
-	k8s.io/api v0.0.0-20221108053747-3f61c95cab71
+	k8s.io/api v0.0.0-20221108053748-98c1aa6b3d0a
 	k8s.io/apimachinery v0.0.0-20221108052757-4fe4321a9d5e
-	k8s.io/apiserver v0.0.0-20221108062852-fda66ef34390
-	k8s.io/client-go v0.0.0-20221108054908-3daf180aa6b1
+	k8s.io/apiserver v0.0.0-20221108062858-aa0e1e5e62ae
+	k8s.io/client-go v0.0.0-20221108054913-4b1a9fdfb58c
 	k8s.io/component-base v0.0.0-20221108061007-abdc0eb56a1d
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
@@ -19,6 +19,7 @@ require (
 
 require (
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
+	github.com/antlr/antlr4/runtime/Go/antlr v1.4.10 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
@@ -38,6 +39,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/google/cel-go v0.12.5 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
@@ -60,6 +62,7 @@ require (
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
 	github.com/spf13/cobra v1.6.0 // indirect
+	github.com/stoewer/go-strcase v1.2.0 // indirect
 	go.etcd.io/etcd/api/v3 v3.5.5 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.5.5 // indirect
 	go.etcd.io/etcd/client/v3 v3.5.5 // indirect
@@ -97,10 +100,10 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221108053747-3f61c95cab71
+	k8s.io/api => k8s.io/api v0.0.0-20221108053748-98c1aa6b3d0a
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221108052757-4fe4321a9d5e
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221108062852-fda66ef34390
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221108054908-3daf180aa6b1
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221108062858-aa0e1e5e62ae
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20221108054913-4b1a9fdfb58c
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20221108061007-abdc0eb56a1d
 	k8s.io/kms => k8s.io/kms v0.0.0-20221028080743-a9ba1c11c0c6
 )
