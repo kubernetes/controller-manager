@@ -9,9 +9,9 @@ require (
 	github.com/stretchr/testify v1.8.1
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	k8s.io/api v0.0.0-20230112183318-59fcd23597fd
-	k8s.io/apimachinery v0.0.0-20230112182327-235f5123de4a
-	k8s.io/apiserver v0.0.0-20230115234012-173011e7a588
-	k8s.io/client-go v0.0.0-20230113000324-241dfe363021
+	k8s.io/apimachinery v0.0.0-20230117181045-35ae53239086
+	k8s.io/apiserver v0.0.0-20230118081836-0bff71021b05
+	k8s.io/client-go v0.0.0-20230117201445-a13376f3fa39
 	k8s.io/component-base v0.0.0-20230112192324-33f62c7b2818
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
@@ -79,6 +79,7 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.19.0 // indirect
+	golang.org/x/crypto v0.1.0 // indirect
 	golang.org/x/net v0.4.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
 	golang.org/x/sys v0.3.0 // indirect
@@ -101,9 +102,9 @@ require (
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230112183318-59fcd23597fd
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230112182327-235f5123de4a
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230115234012-173011e7a588
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230113000324-241dfe363021
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230117181045-35ae53239086
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230118081836-0bff71021b05
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230117201445-a13376f3fa39
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230112192324-33f62c7b2818
-	k8s.io/kms => k8s.io/kms v0.0.0-20230107081413-fd373b9a5aa5
+	k8s.io/kms => k8s.io/kms v0.0.0-20230117203143-407acb40b4f8
 )
