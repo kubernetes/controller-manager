@@ -10,9 +10,9 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b
 	k8s.io/api v0.0.0-20230112183318-59fcd23597fd
 	k8s.io/apimachinery v0.0.0-20230120210016-525cf13dc92f
-	k8s.io/apiserver v0.0.0-20230121051352-be793fd445a1
+	k8s.io/apiserver v0.0.0-20230121051354-edcec154dbcb
 	k8s.io/client-go v0.0.0-20230119210935-84ad8a7920b4
-	k8s.io/component-base v0.0.0-20230121050739-a5aa646bdc74
+	k8s.io/component-base v0.0.0-20230121050741-c54e8e995b4c
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
 )
@@ -103,8 +103,8 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230112183318-59fcd23597fd
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230120210016-525cf13dc92f
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230121051352-be793fd445a1
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230121051354-edcec154dbcb
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20230119210935-84ad8a7920b4
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230121050739-a5aa646bdc74
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230121050741-c54e8e995b4c
 	k8s.io/kms => k8s.io/kms v0.0.0-20230117203143-407acb40b4f8
 )
