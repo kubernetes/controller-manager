@@ -8,11 +8,11 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/oauth2 v0.10.0
-	k8s.io/api v0.0.0-20240301204737-cd36300dc819
-	k8s.io/apimachinery v0.0.0-20240301204447-c9969982b5df
-	k8s.io/apiserver v0.0.0-20240301211935-4fa5c0c49246
-	k8s.io/client-go v0.0.0-20240301205136-1bed3f14c117
-	k8s.io/component-base v0.0.0-20240301210028-15d726cdca18
+	k8s.io/api v0.0.0-20240306165540-05aa4bceed70
+	k8s.io/apimachinery v0.0.0-20240306164812-cbfe0a1feaa5
+	k8s.io/apiserver v0.0.0-20240306172940-17663913a4fd
+	k8s.io/client-go v0.0.0-20240306170515-0cdc0ce850af
+	k8s.io/component-base v0.0.0-20240306172020-b0a6e40497ae
 	k8s.io/klog/v2 v2.120.1
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 )
@@ -39,7 +39,7 @@ require (
 	github.com/go-openapi/swag v0.22.3 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
-	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/cel-go v0.17.8 // indirect
 	github.com/google/gnostic-models v0.6.8 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
@@ -91,7 +91,7 @@ require (
 	google.golang.org/genproto/googleapis/api v0.0.0-20230726155614-23370e0ffb3e // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230822172742-b8732ec3820d // indirect
 	google.golang.org/grpc v1.58.3 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
@@ -102,11 +102,4 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace (
-	k8s.io/api => k8s.io/api v0.0.0-20240301204737-cd36300dc819
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240301204447-c9969982b5df
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240301211935-4fa5c0c49246
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20240301205136-1bed3f14c117
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20240301210028-15d726cdca18
-	k8s.io/kms => k8s.io/kms v0.0.0-20240301210546-4a4bf5f9988c
-)
+replace k8s.io/kms => k8s.io/kms v0.0.0-20240327165525-6bf80055228c
