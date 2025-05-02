@@ -10,13 +10,13 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.10.0
 	golang.org/x/oauth2 v0.27.0
-	k8s.io/api v0.0.0-20250502231439-048497663346
-	k8s.io/apimachinery v0.0.0-20250502231139-7b819a3b8251
-	k8s.io/apiserver v0.0.0-20250502234309-3dae57efb591
-	k8s.io/client-go v0.0.0-20250502231852-a566719c9450
-	k8s.io/component-base v0.0.0-20250502232954-2f84c3b3dbc5
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.130.1
-	k8s.io/utils v0.0.0-20250321185631-1f6e0b77f77e
+	k8s.io/utils v0.0.0-20250502105355-0f33e8f1c979
 )
 
 require (
@@ -100,4 +100,13 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.7.0 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
 )
