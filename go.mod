@@ -10,11 +10,11 @@ require (
 	github.com/spf13/pflag v1.0.6
 	github.com/stretchr/testify v1.10.0
 	golang.org/x/oauth2 v0.27.0
-	k8s.io/api v0.0.0-20250610195658-be9d9f7dc6a8
-	k8s.io/apimachinery v0.0.0-20250606195423-d5745c2f38f8
-	k8s.io/apiserver v0.0.0-20250610201405-8a7311dce3ce
-	k8s.io/client-go v0.0.0-20250609120107-9638111dc7f5
-	k8s.io/component-base v0.0.0-20250610200514-42a6c90f512f
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
 )
@@ -64,9 +64,9 @@ require (
 	github.com/spf13/cobra v1.9.1 // indirect
 	github.com/stoewer/go-strcase v1.3.0 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
-	go.etcd.io/etcd/api/v3 v3.6.0 // indirect
-	go.etcd.io/etcd/client/pkg/v3 v3.6.0 // indirect
-	go.etcd.io/etcd/client/v3 v3.6.0 // indirect
+	go.etcd.io/etcd/api/v3 v3.6.1 // indirect
+	go.etcd.io/etcd/client/pkg/v3 v3.6.1 // indirect
+	go.etcd.io/etcd/client/v3 v3.6.1 // indirect
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.60.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.58.0 // indirect
@@ -100,4 +100,13 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.7.0 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
 )
