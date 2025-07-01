@@ -11,10 +11,10 @@ require (
 	github.com/stretchr/testify v1.10.0
 	golang.org/x/oauth2 v0.27.0
 	k8s.io/api v0.0.0-20250626212533-a8e4c192362f
-	k8s.io/apimachinery v0.0.0-20250625172236-d6651abdfec8
-	k8s.io/apiserver v0.0.0-20250627215021-06b7bf2af774
-	k8s.io/client-go v0.0.0-20250627212930-267615c1eb68
-	k8s.io/component-base v0.0.0-20250625174139-179392ef0450
+	k8s.io/apimachinery v0.0.0-20250701092256-10cef9d38d4c
+	k8s.io/apiserver v0.0.0-20250701094138-356546280584
+	k8s.io/client-go v0.0.0-20250630172937-5e8db78e0499
+	k8s.io/component-base v0.0.0-20250627214227-48c508093cdb
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
 )
