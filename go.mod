@@ -10,10 +10,10 @@ require (
 	github.com/spf13/pflag v1.0.9
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/oauth2 v0.30.0
-	k8s.io/api v0.0.0-20251204222646-382014e64b8e
-	k8s.io/apimachinery v0.0.0-20251204222123-56aa7d5cc8bb
-	k8s.io/apiserver v0.0.0-20251204230936-a52843043e97
-	k8s.io/client-go v0.0.0-20251204223340-453ad29ccd47
+	k8s.io/api v0.0.0-20251218022515-cc3b8d55eb43
+	k8s.io/apimachinery v0.0.0-20251218022201-cec5dd05301e
+	k8s.io/apiserver v0.0.0-20251218024917-c853c6cedd78
+	k8s.io/client-go v0.0.0-20251218022938-0d964cc38634
 	k8s.io/component-base v0.0.0-20251204225730-8cb15f10375f
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4
@@ -43,7 +43,6 @@ require (
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/cel-go v0.26.0 // indirect
 	github.com/google/gnostic-models v0.7.0 // indirect
-	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.26.3 // indirect
