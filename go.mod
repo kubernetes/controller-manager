@@ -10,11 +10,11 @@ require (
 	github.com/spf13/pflag v1.0.9
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/oauth2 v0.34.0
-	k8s.io/api v0.0.0-20260310163416-845a10f7ee1f
-	k8s.io/apimachinery v0.0.0-20260310163039-3c9213c5d2c9
-	k8s.io/apiserver v0.0.0-20260310170122-5b2247819454
-	k8s.io/client-go v0.0.0-20260310163919-32a3ac47cf42
-	k8s.io/component-base v0.0.0-20260310165111-0be3c950cfd8
+	k8s.io/api v0.0.0-20260311210621-4d4e1f75428a
+	k8s.io/apimachinery v0.0.0-20260312005946-068235c51217
+	k8s.io/apiserver v0.0.0-20260312013856-9ee59078fe09
+	k8s.io/client-go v0.0.0-20260311003929-97ac09639d31
+	k8s.io/component-base v0.0.0-20260311132547-3d250a3e11dc
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
 )
