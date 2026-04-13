@@ -12,9 +12,9 @@ require (
 	golang.org/x/oauth2 v0.34.0
 	k8s.io/api v0.0.0-20260414143013-879d3962091a
 	k8s.io/apimachinery v0.0.0-20260414140933-efb7f2628b26
-	k8s.io/apiserver v0.0.0-20260414170325-690e6793f364
+	k8s.io/apiserver v0.0.0-20260414022148-1c9198d9dea4
 	k8s.io/client-go v0.0.0-20260414153210-f22a53e6273b
-	k8s.io/component-base v0.0.0-20260414160713-a8a9f00cc09f
+	k8s.io/component-base v0.0.0-20260414022148-c842c867e037
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
 )
@@ -69,12 +69,12 @@ require (
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.65.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.65.0 // indirect
-	go.opentelemetry.io/otel v1.40.0 // indirect
+	go.opentelemetry.io/otel v1.41.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.40.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.40.0 // indirect
-	go.opentelemetry.io/otel/metric v1.40.0 // indirect
+	go.opentelemetry.io/otel/metric v1.41.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.40.0 // indirect
-	go.opentelemetry.io/otel/trace v1.40.0 // indirect
+	go.opentelemetry.io/otel/trace v1.41.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.9.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.1 // indirect
