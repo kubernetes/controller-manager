@@ -10,11 +10,11 @@ require (
 	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/testify v1.12.1
 	golang.org/x/oauth2 v0.37.0
-	k8s.io/api v0.0.0-20260925175811-97b4aac46fbf
-	k8s.io/apimachinery v0.0.0-20260925175343-be1093d69c39
-	k8s.io/apiserver v0.0.0-20260925183219-524306ef2170
-	k8s.io/client-go v0.0.0-20260925180432-0b3e140561dc
-	k8s.io/component-base v0.0.0-20260925181949-33d458fff1ed
+	k8s.io/api v0.0.0-20260925175813-1ae1ab50d0cd
+	k8s.io/apimachinery v0.0.0-20260925175345-fdc546200a6d
+	k8s.io/apiserver v0.0.0-20260925183224-d365d26d0f4d
+	k8s.io/client-go v0.0.0-20260925180436-4849f5561335
+	k8s.io/component-base v0.0.0-20260925181953-c3f88dae1f3b
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd
 )
@@ -33,7 +33,7 @@ require (
 	github.com/emicklei/go-restful/v3 v3.13.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
-	github.com/fxamacker/cbor/v2 v2.9.1 // indirect
+	github.com/fxamacker/cbor/v2 v2.9.4 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v1.0.0 // indirect
