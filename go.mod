@@ -12,7 +12,7 @@ require (
 	golang.org/x/oauth2 v0.37.0
 	k8s.io/api v0.0.0-20261028233444-65c5b9edb29b
 	k8s.io/apimachinery v0.0.0-20261027231708-3c2f8860fff4
-	k8s.io/apiserver v0.0.0-20261029010136-cd7819298ed8
+	k8s.io/apiserver v0.0.0-20261029064831-1723eae6f4f9
 	k8s.io/client-go v0.0.0-20261028235225-79dc79d83350
 	k8s.io/component-base v0.0.0-20261027153629-0c2a61873e07
 	k8s.io/klog/v2 v2.140.0
